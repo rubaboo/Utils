@@ -26,6 +26,14 @@ $(document).ready
 				}
 			}
 		);
+
+		$("#addBookmark").click(
+			function()
+			{
+				var frm = $("#MainFrm").get(0);
+				console.log(frm.contentWindow.document.title);
+			}
+		);
 		$("#getBookmark").click(
 			function()
 			{
