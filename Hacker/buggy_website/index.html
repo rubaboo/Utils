@@ -1,0 +1,45 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>一个充满Bug的Web站点</title>
+    </head>
+    <body>
+        <h2>一个充满Bug的Web站点</h2>
+        <hr/>
+        <h4>SQL注入</h4>
+        <form action="/cgi-bin/sql_injection.py">
+            <table>
+                <tr>
+                    <td><B>NAME:</B></td>
+                    <td><input type="text" name="user" size=15/></td>
+                </tr>
+                <tr>
+                    <td><B>PASSWORD:</B></td>
+                    <td><input type="text" name="password" size=15/></td>
+                </tr>
+            </table>
+            <input type="submit" />
+        </form>
+        <hr/>
+        <h4>人家才不要SQL注入~</h4>
+        <form action="/cgi-bin/no_sql_injection.py">
+            <table>
+                <tr>
+                    <td><B>NAME:</B></td>
+                    <td><input type="text" name="user" size=15/></td>
+                </tr>
+                <tr>
+                    <td><B>PASSWORD:</B></td>
+                    <td><input type="text" name="password" size=15/></td>
+                </tr>
+            </table>
+            <input type="submit" />
+        </form>
+        <hr/>
+        <h4>我来过滤所有的特殊字符！</h4>
+        <form action="/cgi-bin/symbol_filter.py">
+            <input type="text" name="symbols" size=32/>
+            <input type="submit" />
+        </form>
+    </body>
+</html>
