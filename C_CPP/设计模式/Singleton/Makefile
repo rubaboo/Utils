@@ -1,7 +1,7 @@
 CC := g++
-FLAGS := -pthread 
+FLAGS := -lpthread 
 
-main : main.cc
+main : main.cc Singleton.hxx
 	$(CC) -o main main.cc $(FLAGS)
 
 .PHONY : clean

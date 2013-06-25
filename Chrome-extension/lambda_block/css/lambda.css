@@ -1,0 +1,8 @@
+.killer-item {
+    display:table;/*让元素以表格的单元素格形式渲染*/
+}	
+
+.killer-item * {
+    display:table-cell;/*让元素以表格的单元素格形式渲染*/
+    vertical-align: middle;/*使用元素的垂直对齐*/
+}	
