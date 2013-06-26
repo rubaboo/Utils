@@ -13,7 +13,27 @@ $(document).ready(function() {
         console.log(text);
         if(text) {
             text = unescape(encodeURIComponent(text));
-            t_area.val($.base64.encode(text));        
+            t_area.val('DDDDD' + $.base64.encode(text));        
+        }
+    });
+    
+    $(".a-n-feed h3").each(function(){
+        $.base64.is_unicode = false;
+        var t = $(this).html();
+        console.log(t);
+        var x = t.match(/DDDDD.*/g);
+        
+        if(x) {
+            console.log(x[0]);
+            x = x[0];
+            x = x.replace(/DDDDD/g, '');
+            console.log(x);
+            x =  decodeURIComponent(escape($.base64.decode(x)));
+            console.log(x);
+            t = t.replace(/DDDDD.*/g, x);
+            console.log(t);
+            $(this).html(t);
         }
     });
 });
+

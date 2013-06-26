@@ -1,7 +1,7 @@
 {
-    "name": "保护水表娘",
+    "name": "人人作死精灵",
     "version": "0.1",
-    "description": "水表在门外，没叫外卖，没有快递！",
+    "description": "水表在门外，没叫外卖，没有快递！不作死就不会死！",
     "permissions": [
         "tabs", 
         "http://*/*"
@@ -14,7 +14,7 @@
     "web_accessible_resources": [
     ],
     "browser_action":{
-        "default_title": "保护水表娘",
+        "default_title": "人人作死精灵",
         "default_icon": "icon.png"
     },
     "icons":{
