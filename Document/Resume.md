@@ -54,6 +54,7 @@ Moody _”Kuuy”_ Wizmann
 ## 个人项目经验
 
 * ACM-ICPC 竞赛经历 （2010.11至今）
+
     通过解决竞赛题目，积累了近100K行的代码经验（98%的C/C++，1%的Python，其余的为Java和Scala），开阔了自己的眼界，编程能力有了很大提高。
 
 * 北邮网关登录工具 （2012.4）
@@ -66,21 +67,27 @@ Moody _”Kuuy”_ Wizmann
     在实验室的项目中，承担编写Fuzz测试的任务，读取XML文件的文件配置，生成符合一定标准的随机Mp3文件，用来测试安卓的音乐播放器的漏洞。
 
 * 14-CatFish （2012.6）
+
     使用PyGame写成的一个扑克游戏。
 
 * DjWebox（2012.9）
+
     使用Django编写的轻量级网盘，设计方向是小型办公室和实验室的文件安全存储。使用了RSA、MD5、RC4等密码算法，保证用户数据安全。提供了在线网盘的基本功能，使用PyGTK制作客户端。
 
 * 人人网小黄鸡 算24点插件 （2013.1）
+
     一个计算24点的小黄鸡插件（之后升级为任意点数），通过预处理所有计算结果，生成Hash做为索引，快速响应计算请求。
 
 * “我要戒人人”Chrome插件 （2013.4）
+
     一个Chrome插件，用来戒除社交网络依赖，使用javascript语言编写，并使用Flat-ui（Bootstrap的一个衍生版）制作前端。
 
 * Coursera公开课：Functional Programming Principles in Scala （2013.4）
+
      参与Scala公开课的学习，并获得结业证书。
 
 * BYR树洞 （2013.5）
+
     一个基于Django的树洞应用，部署在BAE上，实现了基于用户投票排名算法与审核机制，并与社交网络连接（http://BYRTreeHole.duapp.com）
 
 ## My Github
