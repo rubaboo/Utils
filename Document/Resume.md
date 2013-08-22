@@ -90,6 +90,10 @@ Moody _”Kuuy”_ Wizmann
 
     一个基于Django的树洞应用，部署在BAE上，实现了基于用户投票排名算法与审核机制，并与社交网络连接（http://BYRTreeHole.duapp.com）
 
+* 砖工雷达 （2013.8）
+
+    基于Django的爬虫应用，用来抓取、聚合、展现校招信息，部署在BAE上。达到日均200+UV，1000+PV，获得300+RMB捐助。（http://BrickRadar.duapp.com）
+
 ## My Github
 
 * https://github.com/wizmann
