@@ -17,7 +17,7 @@ Moody _”Kuuy”_ Wizmann
 
 * 2012.10 – 2013.4
 
-    美团网实习数据开发工程师，负责使用文本挖掘和统计方法检测竞争对手数据，并维护、测试爬虫系统
+    美团网实习数据开发工程师，负责使用文本挖掘和统计方法检测竞争对手数据，并维护、测试爬虫系统。
 
     主要使用Python, HiveQL 和 C++进行开发。
 
@@ -92,7 +92,7 @@ Moody _”Kuuy”_ Wizmann
 
 * 砖工雷达 （2013.8）
 
-    基于Django的爬虫应用，用来抓取、聚合、展现校招信息，部署在BAE上。达到日均200+UV，1000+PV，获得300+RMB捐助。（http://BrickRadar.duapp.com）
+    基于Django的爬虫应用，用来抓取、、筛选、聚合、展现校招信息，部署在BAE上。（http://BrickRadar.duapp.com）
 
 ## My Github
 
