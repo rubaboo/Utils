@@ -1,0 +1,30 @@
+colorscheme wintersday
+set nocompatible            " 关闭 vi 兼容模式
+syntax on                   " 自动语法高亮    
+set number                  " 显示行号        
+set ruler                   " 打开状态栏标尺  
+set tabstop=4
+set shiftwidth=4
+set softtabstop=4
+
+set ignorecase smartcase
+set incsearch               " 输入搜索内容时就显示搜索结果
+set hlsearch                " 搜索时高亮显示被找到的文本 
+
+set smartindent
+set autoindent
+set expandtab
+set backspace=indent,eol,start
+set pastetoggle=<F10>          
+
+set showmatch
+set showmode
+set wildmenu
+set wildmode=longest:full,ful 
+if version >= 703
+    set colorcolumn=80
+endif
+
+" status line
+set statusline=%<%f\ %h%m%r%=%k[%{(&fenc==\"\")?&enc:&fenc}%{(&bomb?\",BOM\":\"\")}]\ %-14.(%l,%c%V%)\ %P
+set laststatus=2 
