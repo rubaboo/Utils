@@ -58,7 +58,7 @@ Intern Data Development Engineer
 * Using text mining and statistical methods to mine competitor’s data
 * Maintain and test the crawler system
 
-### Open Source Project
+### Personal Projects
 
 * Fuzz Test modules(2012.04)
     
