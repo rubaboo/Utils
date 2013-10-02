@@ -20,7 +20,7 @@ set pastetoggle=<F10>
 set showmatch
 set showmode
 set wildmenu
-set wildmode=longest:full,ful 
+set wildmode=longest:full,full 
 if version >= 703
     set colorcolumn=80
 endif
