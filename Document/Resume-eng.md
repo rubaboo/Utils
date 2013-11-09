@@ -55,21 +55,7 @@ Intern RD Engineer
 
 Intern Data Development Engineer
 
-* Using text mining and statistical methods to mine competitor’s data
-* Maintain and test the crawler system
-
 ### Personal Projects
-
-* Fuzz Test modules(2012.04)
-    
-    * Compile Fuzz testing, reads the XML file configuration file;
-    * Test vulnerabilities of android music player using randomize MP3 file generated above.
- 
-* Djwebox (2012.09) 
-    
-    * A simple network storge service based on Django
-    * Using encryption algorithms (RSA, MD5 and RC4,etc.) to protect the safety of data.
-    * Provides basic function of network storge
 
 * Calc24 plugin SimSimi of renren.com (2013.01)
     
