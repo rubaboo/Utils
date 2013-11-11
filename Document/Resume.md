@@ -19,7 +19,7 @@ Moody _”Kuuy”_ Wizmann
 
     美团网实习数据开发工程师
 
-* 2013.7 - 今
+* 2013.7 - 2013.10
 
     百度商务搜索部 实习搜索平台研发工程师
 
@@ -39,13 +39,13 @@ Moody _”Kuuy”_ Wizmann
 
 * 基本掌握C/C++程序设计语言，代码能力强, 熟练应用常用算法、数据结构，有竞赛获奖经历
 
-* 熟练使用Python语言开发，有相应的项目经验(PyGTK, Django等)
+* 熟练使用Python语言开发，并能独立开发小型应用
 
-* 接触过C#、HTML/CSS/javascript、Scala等编程语言，并能积极实践
+* 接触过C#、HTML/CSS/javascript、Scala等语言，并能积极实践
 
 * 熟悉Linux操作系统的使用，并使用Linux做为日常工作的操作系统
 
-### 个人项目经验
+### 业余项目经验
 
 * 人人网小黄鸡 算24点 （2013.1）
 
@@ -63,4 +63,4 @@ Moody _”Kuuy”_ Wizmann
 
 * https://github.com/wizmann
 
-* 简历中提及的所有项目代码都托管在Github上
+* 更多的个人项目托管在Github上
