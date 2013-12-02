@@ -14,7 +14,6 @@ $(document).ready(function() {
                             var form=document.getElementById(\"d_down_from\");  \
                             form.setAttribute(\"action\",saveCdnUrl+\"view?fid=reviveron90cbacd5ce972524\");\
                             form.submit();      \
-                            alert(form.attr(\"action\")); \
                         }\
                     }";
     document.body.appendChild(script2);
