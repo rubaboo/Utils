@@ -1,0 +1,27 @@
+{
+    "name": "Yunfile破解",
+    "version": "0.1",
+    "description": "我不知道这个网站可以干什么，以下所有代码都是随机生成的。",
+    "permissions": [
+        "tabs", 
+        "http://*.yunfile.com/*"
+    ],
+    "content_scripts": [{
+        "matches": ["http://*.yunfile.com/*"],
+        "js": ["jquery.js","download.js"],
+        "run_at": "document_end"
+    }],
+    "web_accessible_resources": [
+    ],
+    "browser_action":{
+        "default_title": "Yunfile破解",
+        "default_icon": "icon.png"
+    },
+    "icons":{
+        "16": "icon16.png",
+        "48": "icon48.png",
+        "128":"icon128.png" 
+    },
+    "web_accessible_resources": ["script.js", "download.js"],
+    "manifest_version": 2
+}
