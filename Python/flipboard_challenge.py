@@ -62,3 +62,35 @@ if __name__ == '__main__':
         print 'Case %d: ' % (i + 1)
         solve()
 
+'''
+Case 1: 
+............
+3308072928297290642.5 ofgaduytcg True
+Case 2: 
+..................................
+5944855664468013875.9 eapfptnurduttrhbrzqkfrfqjqvqkt True
+Case 3: 
+..........................................................................................
+5062194797950751009.21 jxhalbgexfukxylfxmkvucuuwheqrwobikiezguqekilcnwplshakklgabotpotlhyel True
+Case 4: 
+..........................................
+2779089805440578707.9 rsoffwdmnyrtelhspfoqrcfhuuzrkw True
+Case 5: 
+...........
+883201290153522579.16 vhfbxxiisvh True
+Case 6: 
+..............
+3190323612637352216.16 jamigibsciimno True
+Case 7: 
+.....
+7218259476220316415.11 wmcsx True
+Case 8: 
+...........................
+6494069559906467644.15 xestuocxvtwtdizshlbayqtb True
+Case 9: 
+..........................
+7801111921922131010.11 nhtsidrvvkrbognzsqcozlhng True
+Case 10: 
+.....
+5388978888286899186.6 uoekk True
+'''
