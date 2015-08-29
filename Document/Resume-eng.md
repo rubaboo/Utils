@@ -6,9 +6,6 @@ Email: mail.kuuy@gmail.com
 
 ### AWARDS
 
-* First Prize
-BUPT Baidu Hackathon (2013.5)
-
 * Gold Medal
 NKPC9(Nankai Programming Contest), (2013.4)
 
@@ -37,7 +34,22 @@ NKPC8(8th Nankai Programming Contest),(2012.3)
 
 (2014.7 - now)
 
-Software Engineer
+Software Engineer      
+Basic Search Team of "the Phoenix Nest" Search Advertising Engine
+
+Phoenix Nest of Baidu is the #1 marketing platform in China which is designed to improve relevance in paid search and increase value for customers. Also known as "Google AdWord for China".
+
+##### Responsibilities
+
+1. maintain the storage & backend service for the advertising engine, which is the crux of the whole advertising system
+2. prototyping new features and new products
+3. focus on performance and resource-utilization
+
+##### Milestone Project
+
+###### Memory Optimization on Online Ads Storage Service     
+
+Working on reduce the memory usage of the ads storage service by column compression. Saving ~30% memory space by deduplicating in the online production environment (sum up to ~14TB). And saving ~70% memory by deduplicating together with compressing by snappy in the offline experimental environment.
 
 ### INTERNSHIP EXPERIENCE
 
@@ -45,13 +57,15 @@ Software Engineer
 
 (2013.7 – 2013.11)
 
-Intern Software Engineer
+Intern Software Engineer     
+Basic Search Team of "the Phoenix Nest" Search Advertising Engine
 
 #### Meituan.com
 
 (2012.10 - 2013.4)
 
-Intern Data Development Engineer
+Intern Software Engineer     
+Data Team
 
 ### Personal Projects
 
@@ -63,11 +77,9 @@ A personal technical blog written in both Chinese and English.
 
 IntGraph is a static site generator, which inspired by Pelican.
 
-Some of the features include:
-
 * using Python as the backend language, supporting markdown format
 * no database or server-side logic, absolutely static pages
-* using Angular and Bootstrap front-end framework, making the site like a "dynamic" one
+* using AngularJS and Bootstrap as front-end framework, making the site like a "dynamic" one
 
 #### Interview Problem Platform - http://intgraph.wizmann.tk/
 
@@ -81,7 +93,7 @@ It supports the scalar type(int, double), string, list, and other user defined d
 
 #### Some other projects - https://github.com/wizmann
 
-You can find some other projects hosted on my Github.
+You can find some other interestring projects hosted on my Github.
 
 ### EDUCATION
 
