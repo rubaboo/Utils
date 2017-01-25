@@ -31,13 +31,42 @@ function wfmd() {
             var result = md.render($(this).text());
             $(this).after('<div class="wfmd">' + result + '</div>');
             var md_div = $(this).parent().children("div.wfmd");
+            console.log(md_div);
             md_div.children("pre").each(function() {
                 console.log($(this));
                 $(this).addClass("hljs");
                 $(this).children('pre code').each(function(i, e) {hljs.highlightBlock(e);});
             });
+            $(this).hide();
         });
     });
+
+    $("div.wfmd img").click(function() {
+        $(this).toggleClass("max-width");
+    });
+
+    $("div.wfmd").dblclick(function() {
+        $(this).hide();
+        $(this).parent().children(".notes").each(function() {
+            $(this).show();
+        });
+    });
+
+    $("div.project.task>div.notes").dblclick(function() {
+        var md = window.markdownit();
+        var result = md.render($(this).text());
+        $(this).parent().children(".wfmd").each(function() {
+            $(this).html(result);
+            $(this).children("pre").each(function() {
+                console.log($(this));
+                $(this).addClass("hljs");
+                $(this).children('pre code').each(function(i, e) {hljs.highlightBlock(e);});
+            });
+            $(this).show();
+        });
+        $(this).hide();
+    });
+
 }
 
 $(window).bind("hashchange", wfmd);
