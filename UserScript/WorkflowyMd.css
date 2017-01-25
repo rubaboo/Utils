@@ -1,0 +1,23 @@
+DIV.notes DIV.content {
+    height: auto !important;
+    overflow: visible !important;
+    display: block !important;
+}
+DIV.wfmd {
+    padding: 12px 12px 12px 12px;
+    background-color: #fdf7e7;
+}
+
+DIV.wfmd img {
+    max-width: 20%;
+}
+
+DIV.wfmd img.max-width {
+    max-width: 100% !important;
+}
+
+PRE.hljs {
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px #333333;
+    margin-top: 12px;
+}
