@@ -20,53 +20,81 @@
 })();
 GM_addStyle ( GM_getResourceText ("hljs_css") );
 
-function wfmd() {
-    $("div.project.task>div.name>div.content").each(function() {
-        if (!$(this).text().endsWith("[md]")) {
-            return;
-        }
-        var that = this;
-        $(this).parent().parent().children(".notes").each(function() {
-            var md = window.markdownit();
-            var result = md.render($(this).text());
-            $(this).after('<div class="wfmd">' + result + '</div>');
-            var md_div = $(this).parent().children("div.wfmd");
-            console.log(md_div);
-            md_div.children("pre").each(function() {
-                console.log($(this));
-                $(this).addClass("hljs");
-                $(this).children('pre code').each(function(i, e) {hljs.highlightBlock(e);});
-            });
-            $(this).hide();
-        });
-    });
-
-    $("div.wfmd img").click(function() {
-        $(this).toggleClass("max-width");
-    });
-
-    $("div.wfmd").dblclick(function() {
-        $(this).hide();
-        $(this).parent().children(".notes").each(function() {
+function render(content) {
+    console.log("render");
+    if (!$(content).text().endsWith("[md]")) {
+        $(content).parent().parent().children(".wfmdraw.notes").each(function() {
+            $(this).unbind("dblclick");
             $(this).show();
         });
-    });
+        $(content).parent().parent().children(".wfmd").each(function() {
+            $(this).remove();
+        });
+        return;
+    }
 
-    $("div.project.task>div.notes").dblclick(function() {
+    $(content).parent().parent().children(".notes").each(function() {
+        $(this).addClass("wfmdraw");
         var md = window.markdownit();
         var result = md.render($(this).text());
         $(this).parent().children(".wfmd").each(function() {
-            $(this).html(result);
-            $(this).children("pre").each(function() {
-                console.log($(this));
-                $(this).addClass("hljs");
-                $(this).children('pre code').each(function(i, e) {hljs.highlightBlock(e);});
+            $(this).remove();
+        });
+        $(this).after('<div class="wfmd">' + result + '</div>');
+        var md_div = $(this).parent().children("div.wfmd");
+
+        md_div.children("pre").each(function() {
+            $(this).addClass("hljs");
+            $(this).children('pre code').each(function(i, e) {hljs.highlightBlock(e);});
+        });
+        md_div.dblclick(function(e) {
+            if (e.target.tagName == "IMG") {
+                $(e.target).toggleClass("max-width");
+            } else {
+                $(this).hide();
+                $(this).parent().children(".notes").each(function() {
+                    $(this).show();
+                });
+            }
+        });
+        $(this).dblclick(function() {
+            var md = window.markdownit();
+            var result = md.render($(this).text());
+            $(this).parent().children(".wfmd").each(function() {
+                $(this).html(result);
+                $(this).children("pre").each(function() {
+                    console.log($(this));
+                    $(this).addClass("hljs");
+                    $(this).children('pre code').each(function(i, e) {hljs.highlightBlock(e);});
+                });
+                $(this).show();
             });
-            $(this).show();
+            $(this).hide();
         });
         $(this).hide();
     });
-
 }
 
-$(window).bind("hashchange", wfmd);
+function wfmd() {
+    console.log("wfmd");
+    $("div.project>div.name>div.content").each(function() {
+        render($(this));
+    });
+
+    $("div.project>div.name>div.content").keyup(function() {
+        render($(this));
+    });
+}
+
+$(window).bind("load hashchange", wfmd);
+
+function onStart() {
+    if (!$("div#loadingScreen").is(":visible")) {
+        wfmd();
+        return;
+    }
+    console.log("still loading, wait for another +1s");
+    setTimeout(onStart, 1000);
+}
+
+onStart();
