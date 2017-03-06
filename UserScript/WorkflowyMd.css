@@ -8,27 +8,33 @@ DIV.wfmd {
     background-color: rgba(255, 248, 229, 0.4);
     border-radius: 5px;
 }
-
 DIV.wfmd img {
     max-width: 20%;
 }
-
 DIV.wfmd img.max-width {
     max-width: 100% !important;
 }
-
-DIV.wfmd h1, h2, h3, h4, h5, h6, p {
+DIV.wfmd h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
     margin: 10px 0;
 }
 
+DIV.wfmd ul li:before {
+    content: '•';
+    margin-right: 12px;
+}
+
+DIV.wfmd ol {
+    list-style-type: decimal;
+    list-style-position: inside;
+}
 PRE.hljs {
     border-radius: 5px;
     box-shadow: 2px 2px 5px #333333;
     margin-top: 12px;
-    overflow-wrap: break-word;
-    white-space: pre-wrap;
-}
-
-.project.highlighted::before {
-    z-index:-1;
 }
