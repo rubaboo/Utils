@@ -23,12 +23,10 @@ h6,
 p {
     margin: 10px 0;
 }
-
 DIV.wfmd ul li:before {
     content: '•';
     margin-right: 12px;
 }
-
 DIV.wfmd ol {
     list-style-type: decimal;
     list-style-position: inside;
@@ -37,4 +35,16 @@ PRE.hljs {
     border-radius: 5px;
     box-shadow: 2px 2px 5px #333333;
     margin-top: 12px;
+}
+DIV.wfmd table {
+    border-collapse: collapse;
+    width: 100%;
+    border-spacing: 2px;
+}
+DIV.wfmd table,
+td,
+th {
+    border: 1px solid #ddd;
+    text-align: left;
+    padding: 9px;
 }
