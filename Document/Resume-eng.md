@@ -1,6 +1,6 @@
 ## Yuntong Ding
 
-Tel: ![tel][1]
+Tel: +86-13718378549
 
 Email: mail.kuuy@gmail.com
 
@@ -18,26 +18,23 @@ ACM-ICPC Asia Regional Contest(Tianjin),(2012.10)
 * Bronze Medal
 NKPC8(8th Nankai Programming Contest),(2012.3)
 
-### QUALIFICATIONS
-
-* Skilled in C/C++, able to solve complex problems through rigorous analysis and code using;
-
-* Skilled in common algorithms and data structures;
-
-* Experienced in Python development and front-end development;
-
-* Sharp-minded and logical, keen observation ability and coordination skills.
-
 ### WORK EXPERIENCE
+
+#### Microsoft Research Asia
+
+(2016.2 - now)
+
+Research Software Development Engineer at Innovation Engineering Group of MSRA
+
+Implementing new ideas for ongoing research projects to build robust prototypes for realworld experimentation.
 
 #### Baidu.com
 
-(2014.7 - now)
+(2014.7 - 2016.2)
 
-Software Engineer      
-Basic Search Team of "the Phoenix Nest" Search Advertising Engine
+Software Engineer at Basic Search Team of "the Phoenix Nest" Search Advertising Engine
 
-Phoenix Nest of Baidu is the #1 marketing platform in China which is designed to improve relevance in paid search and increase value for customers. Also known as "Google AdWord for China".
+Phoenix Nest of Baidu is the #1 marketing platform in China which is designed to improve relevance in paid search and increase value for customers. Also known as "Google AdWords for China".
 
 ##### Responsibilities
 
@@ -57,15 +54,13 @@ Working on reduce the memory usage of the ads storage service by column compress
 
 (2013.7 – 2013.11)
 
-Intern Software Engineer     
-Basic Search Team of "the Phoenix Nest" Search Advertising Engine
+Intern Software Engineer @ Basic Search Team of "the Phoenix Nest" Search Advertising Engine
 
 #### Meituan.com
 
 (2012.10 - 2013.4)
 
-Intern Software Engineer     
-Data Team
+Intern Software Engineer @ Data Team
 
 ### Personal Projects
 
@@ -75,11 +70,7 @@ A personal technical blog written in both Chinese and English.
 
 #### IntGraph - https://github.com/intgraph/intgraph-backend
 
-IntGraph is a static site generator, which inspired by Pelican.
-
-* using Python as the backend language, supporting markdown format
-* no database or server-side logic, absolutely static pages
-* using AngularJS and Bootstrap as front-end framework, making the site like a "dynamic" one
+IntGraph is a static site generator, inspired by Pelican.
 
 #### Interview Problem Platform - http://intgraph.wizmann.tk/
 
