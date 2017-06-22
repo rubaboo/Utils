@@ -10,13 +10,10 @@ Email: mail.kuuy@gmail.com
 NKPC9(Nankai Programming Contest), (2013.4)
 
 * Bronze Medal 
-ACM-ICPC Asia Regional Contest(Tianjin),(2012.10)
+ACM-ICPC Asia Regional Contest(Tianjin), (2012.10)
 
 * Gold Medal
-6th BUPT Programming Contest, Gold Medal,(2012.3)
-
-* Bronze Medal
-NKPC8(8th Nankai Programming Contest),(2012.3)
+6th BUPT Programming Contest, Gold Medal, (2012.3)
 
 ### WORK EXPERIENCE
 
@@ -48,21 +45,11 @@ Phoenix Nest of Baidu is the #1 marketing platform in China which is designed to
 
 Working on reduce the memory usage of the ads storage service by column compression. Saving ~30% memory space by deduplicating in the online production environment (sum up to ~14TB). And saving ~70% memory by deduplicating together with compressing by snappy in the offline experimental environment.
 
-### INTERNSHIP EXPERIENCE
-
-#### Baidu.com
-
-(2013.7 – 2013.11)
-
-Intern Software Engineer @ Basic Search Team of "the Phoenix Nest" Search Advertising Engine
-
-#### Meituan.com
-
-(2012.10 - 2013.4)
-
-Intern Software Engineer @ Data Team
-
 ### Personal Projects
+
+#### STUP network protocol - https://github.com/Wizmann/STUP-Protocol
+
+A TCP-over-UDP userspace network protocol based on Python Twsited Framework.
 
 #### wizmann.tk - http://wizmann.tk/
 
