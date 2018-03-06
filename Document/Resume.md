@@ -1,7 +1,6 @@
 ### 丁昀曈
-Moody _”Kuuy”_ Wizmann
 
-电话: ![tel][1]
+电话: 13718378549
 
 电子邮件: mail.kuuy@gmail.com
 
@@ -9,61 +8,49 @@ Moody _”Kuuy”_ Wizmann
 
 ### 教育经历
 
-* 大学本科(在读) (2010.9 ~ 至今)
+* 大学本科(在读) (2010.9 ~ 2014.6)
     
     北京邮电大学 计算机学院
 
-### 实习经历
-
-* 2012.10 – 2013.4
-
-    美团网实习数据开发工程师
-
-* 2013.7 - 2013.10
-
-    百度商务搜索部 实习搜索平台研发工程师
-
 ### 获奖经历
-
-* 2012.3    南开大学程序设计大赛    外校组第三名 
 
 * 2012.3    北京邮电大学程序设计竞赛  金奖
 
 * 2012.10   ACM-ICPC亚洲区域赛天津站 铜奖
 
-* 2013.4    南开大学程序设计大赛    外校组第一名
+### 工作经历
 
-* 2013.5    北京邮电大学 百度编程马拉松   一等奖
+* 微软亚洲研究院 (2016.2 - 今)
 
-### 专业技能
+RSDE - 创新工程组
 
-* 基本掌握C/C++程序设计语言，代码能力强, 熟练应用常用算法、数据结构，有竞赛获奖经历
+负责实现新创意以及产品孵化等工作。
 
-* 熟练使用Python语言开发，并能独立开发小型应用
+重点项目：Mejis Storage Management Suite     
+Mejis是Azure Storage SDK的封装，提供一个面向对象的存储操作接口。便于业务开发以及减少重复代码。
 
-* 接触过C#、HTML/CSS/javascript、Scala等语言，并能积极实践
+* 百度 (2014.7 - 2016.2)
 
-* 熟悉Linux操作系统的使用，并使用Linux做为日常工作的操作系统
+高级软件工程师 - 商务搜索架构部
 
-### 业余项目经验
+负责开发维护广告检索与触发引擎。进行业务开发以及性能优化等工作。
 
-* 人人网小黄鸡 算24点 （2013.1）
+重点项目：在线广告存储引擎内存优化      
 
-    一个计算24点的小黄鸡插件（之后升级为任意点数），通过预处理所有计算结果，生成Hash做为索引，快速响应计算请求。
+利用广告库特性，使用列压缩方式减少在线服务内存占用。在未明显影响检索效率的前提下，节约30%的在线内存占用（共计14TB）。
 
-* Coursera公开课：Functional Programming Principles in Scala （2013.4）
+### 个人项目
 
-     参与Scala公开课的学习，并获得结业证书。
+STUP 网络协议 - https://github.com/Wizmann/STUP-Protocol
+一个使用Python Twisted实现的TCP-over-UDP网络协议。
 
-* 砖工雷达 （2013.8）
+wizmann.tk - http://wizmann.tk/
+个人博客。
 
-    基于Django的爬虫应用，用来抓取、筛选、聚合、展现校招信息，部署在BAE上。（http://BrickRadar.duapp.com）
+IntGraph - https://github.com/intgraph/intgraph-backend
+一个静态站点生成器。
 
-### My Github
-
-* https://github.com/wizmann
-
-* 更多的个人项目托管在Github上
-
+Interview Problem Platform - http://intgraph.wizmann.tk/
+intgraph.wizmann.tk 是一个算法题聚合网站，使用IntGraph生成，部署在Github Page上。
 
 [1]: http://wizmann-pic.qiniudn.com/394659692a460258b45a99f1424ea357
