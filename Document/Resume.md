@@ -20,37 +20,36 @@
 
 ### 工作经历
 
-* 微软亚洲研究院 (2016.2 - 今)
+#### 微软亚洲研究院 (2016.2 - 今)
 
 RSDE - 创新工程组
 
 负责实现新创意以及产品孵化等工作。
 
-重点项目：Mejis Storage Management Suite     
+**重点项目：Mejis Storage Management Suite**       
 Mejis是Azure Storage SDK的封装，提供一个面向对象的存储操作接口。便于业务开发以及减少重复代码。
 
-* 百度 (2014.7 - 2016.2)
+#### 百度 (2014.7 - 2016.2)
 
 高级软件工程师 - 商务搜索架构部
 
 负责开发维护广告检索与触发引擎。进行业务开发以及性能优化等工作。
 
-重点项目：在线广告存储引擎内存优化      
-
+**重点项目：在线广告存储引擎内存优化**             
 利用广告库特性，使用列压缩方式减少在线服务内存占用。在未明显影响检索效率的前提下，节约30%的在线内存占用（共计14TB）。
 
 ### 个人项目
 
-STUP 网络协议 - https://github.com/Wizmann/STUP-Protocol
+* STUP 网络协议 - https://github.com/Wizmann/STUP-Protocol      
 一个使用Python Twisted实现的TCP-over-UDP网络协议。
 
-wizmann.tk - http://wizmann.tk/
+* wizmann.tk - http://wizmann.tk/      
 个人博客。
 
-IntGraph - https://github.com/intgraph/intgraph-backend
+* IntGraph - https://github.com/intgraph/intgraph-backend      
 一个静态站点生成器。
 
-Interview Problem Platform - http://intgraph.wizmann.tk/
+* Interview Problem Platform - http://intgraph.wizmann.tk/      
 intgraph.wizmann.tk 是一个算法题聚合网站，使用IntGraph生成，部署在Github Page上。
 
 [1]: http://wizmann-pic.qiniudn.com/394659692a460258b45a99f1424ea357
