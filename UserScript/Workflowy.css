@@ -1,0 +1,57 @@
+DIV.notes DIV.content {
+    height: auto !important;
+    overflow: visible !important;
+    display: block !important;
+}
+DIV.wfmd {
+    padding: 8px 8px 8px 8px;
+    background-color: rgba(255, 248, 229, 0.4);
+    border-radius: 5px;
+}
+DIV.wfmd img {
+    max-width: 50%;
+}
+DIV.wfmd img.max-width {
+    max-width: 100% !important;
+}
+DIV.wfmd h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 10px 0;
+}
+PRE.hljs {
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px #333333;
+    margin-top: 12px;
+    overflow-wrap: break-word;
+    white-space: pre-wrap;
+    font-size: 13px;
+    font-family: "monaco";
+}
+.hljs-keyword,
+.hljs-selector-tag,
+.hljs-name,
+.hljs-attr {
+    font-weight: bold;
+}
+.project.highlighted::before {
+    z-index: -1;
+}
+body {
+    transition: background-image 1s ease-in-out;
+    background-image: url("http://wizmann-pic.qiniudn.com/16-5-10/50970924.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+div.page {
+    background: rgba(255, 255, 255, 0.95) !important;
+}
+
+.content-img img {
+    max-width: 100%;
+}
