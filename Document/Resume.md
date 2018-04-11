@@ -27,7 +27,7 @@ RSDE - 创新工程组
 负责实现新创意以及产品孵化等工作。
 
 **重点项目：Mejis Storage Management Suite**       
-Mejis是Azure Storage SDK的封装，提供一个面向对象的存储（Table、Blob、Queue）操作接口。      
+Mejis是Azure Storage SDK的封装，提供一个面向对象的存储（Table、Blob、Queue）操作接口。          
 封装了常用的NoSQL数据库操作接口，以及数据关系型操作。以提升开发效率，减少重复代码。
 
 #### 百度 (2014.7 - 2016.2)
