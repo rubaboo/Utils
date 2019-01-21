@@ -42,7 +42,8 @@ function do_parseImg() {
 function parseImg() {
     console.log("parseImg");
     console.log($("div.notes div.content"));
-    $("div.notes div.content").live("click keyup", do_parseImg);
+    $("div.notes div.content").keyup(do_parseImg);
+    $("div.notes div.content").click(do_parseImg);
     $("div.notes div.content").each(do_parseImg);
 };
 
