@@ -49,6 +49,8 @@ function parseImg() {
 
 $(window).bind("load hashchange", parseImg);
 
+window.addEventListener('popstate', parseImg);
+
 var pushState = history.pushState;
 history.pushState = function () {
     pushState.apply(history, arguments);
@@ -59,4 +61,3 @@ $(".img-toggle").live("click", function() {
     console.log("toggle");
     $(this).toggle();
 });
-
