@@ -4,7 +4,7 @@
 // @version      0.1
 // @description  try to take over the world!
 // @author       Wizmann
-// @match        https://workflowy.com/
+// @match        https://workflowy.com/*
 // @grant        GM_xmlhttpRequest
 // @connect      api.ioliu.cn
 // @connect      windows.microsoft.com
@@ -29,16 +29,13 @@ var CUSTOM_URL_LIST = [
 var BING_TODAY_API = "https://api.ioliu.cn/bing/";
 var BING_RANDOM_API = "https://bing.ioliu.cn/v1/rand";
 
-
-
-$(window).load(function() {
+$(window).on("load", function() {
     $("div#getMoreSpaceButtonTopLeft").html("<img id=\"bgprocessing\" src=\"https://workflowy.com/media/i/ajax-loader.gif\" style=\"display:none; height:20px\" />");
-    $("div#pageContainer").dblclick(function(e) {
+    $("div#backgroundImage").dblclick(function(e) {
         if (e.target != this) {
             e.target.dblclick();
             return;
         }
-
         var next_url = BING_RANDOM_API;
         if (TYPE == "CUSTOM") {
             next_url = CUSTOM_URL_LIST[Math.floor(Math.random() * CUSTOM_URL_LIST.length)];
@@ -57,6 +54,5 @@ $(window).load(function() {
         };
         image.src = next_url;
     });
-
-    $("div#pageContainer").dblclick();
+    $("div#backgroundImage").dblclick();
 });
