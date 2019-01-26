@@ -11,7 +11,7 @@
 
 
 function do_parseImg() {
-    console.log("do_parseImg");
+    // console.log("do_parseImg");
     $(this).nextAll(".content-img").remove();
     var lines = $(this).text().split("\n");
     var img_re = /^\!\[(.*)\]\((.+)\)$/;
@@ -25,7 +25,7 @@ function do_parseImg() {
         var property = img[1];
         var img_url = img[2];
 
-        console.log(property, img_url);
+        // console.log(property, img_url);
 
         if (property === "t") {
             $(this).after('<div class="content-img"><img class="img-toggle" style="display: none" src="' + img_url + '"/></div>');
@@ -41,15 +41,18 @@ function do_parseImg() {
 
 function parseImg() {
     console.log("parseImg");
-    console.log($("div.notes div.content"));
-    $("div.notes div.content").keyup(do_parseImg);
-    $("div.notes div.content").click(do_parseImg);
+    // console.log($("div.notes div.content"));
+    // $("div.notes div.content").keyup(do_parseImg);
+    // $("div.notes div.content").click(do_parseImg);
     $("div.notes div.content").each(do_parseImg);
 };
 
 $(window).bind("load hashchange", parseImg);
-
 window.addEventListener('popstate', parseImg);
+
+(function runForever(){
+  setInterval(parseImg, 1000)
+})()
 
 var pushState = history.pushState;
 history.pushState = function () {
