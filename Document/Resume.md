@@ -20,7 +20,15 @@
 
 ### 工作经历
 
-#### 微软亚洲研究院 (2016.2 - 今)
+#### 微软亚洲互联网工程院（2018.6 - 今）
+
+SDE - ObjectStore Team of Bing Platform
+
+负责大规模分布式KV存储相关开发。
+
+**重点项目：RocksDB存储优化**
+
+#### 微软亚洲研究院 (2016.2 - 2018.6)
 
 RSDE - 创新工程组
 
@@ -41,18 +49,12 @@ Mejis是Azure Storage SDK的封装，提供一个面向对象的存储（Table�
 
 ### 个人项目
 
-* STUP 网络协议（TCP-over-UDP) - https://github.com/Wizmann/STUP-Protocol      
+* Melkweg 加密代理协议（使用Python和Go语言实现）  - https://github.com/Wizmann/Melkweg       
 
-* Melkweg 加密代理协议 - https://github.com/Wizmann/Melkweg       
+* STUP 网络协议（TCP-over-UDP) - https://github.com/Wizmann/STUP-Protocol      
 
 * wizmann.tk - http://wizmann.tk/      
 个人博客。
-
-* IntGraph - https://github.com/intgraph/intgraph-backend      
-一个静态站点生成器。
-
-* Interview Problem Platform - http://intgraph.wizmann.tk/      
-一个算法题聚合网站，使用IntGraph生成，部署在Github Page上。
 
 * Github - https://github.com/Wizmann
 
