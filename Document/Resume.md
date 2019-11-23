@@ -49,7 +49,7 @@ Mejis是Azure Storage SDK的封装，提供一个面向对象的存储（Table�
 
 ### 个人项目
 
-* Melkweg 加密代理协议（使用Python和Go语言实现）  - https://github.com/Wizmann/Melkweg       
+* Melkweg 加密代理协议（使用Python和Go语言实现）  - https://github.com/Wizmann/Melkweg , https://github.com/Wizmann/Melkweg-go   
 
 * STUP 网络协议（TCP-over-UDP) - https://github.com/Wizmann/STUP-Protocol      
 
