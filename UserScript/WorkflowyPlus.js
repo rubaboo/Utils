@@ -9,9 +9,8 @@
 /* jshint -W097 */
 'use strict';
 
-
 function do_parseImg() {
-    // console.log("do_parseImg");
+    console.log("do_parseImg");
     $(this).nextAll(".content-img").remove();
     var lines = $(this).text().split("\n");
     var img_re = /^\!\[(.*)\]\((.+)\)$/;
@@ -48,9 +47,21 @@ function parseImg() {
 $(window).bind("load hashchange", parseImg);
 window.addEventListener('popstate', parseImg);
 
-(function runForever(){
-  setInterval(parseImg, 1000)
-})()
+window.WFEventListener = event => {
+  switch (event) {
+    case 'documentReady':
+    case 'expand':    // via click on + & Ctrl+Space on child only. NOT SUPPORTED: Ctrl+Down, Ctrl+Space on parent & menu
+    case 'collapse':    // via click on - & Ctrl+Space on child only. NOT SUPPORTED: Ctrl+Up, Ctrl+Space on parent & menu
+          parseImg(); break;
+    case 'operation--move':    // moving any bullet, via mouse or KBS, including indent, outdent
+    case 'operation--edit':    // automatic save after any editing text operations. Usually fires within 1s of last keystroke
+          console.log(event);
+          var node = WF.focusedItem().getElement();
+          console.log($(node).find("div.notes div.content"));
+          $(node).find("div.notes div.content").each(do_parseImg);
+          break;
+  }
+};
 
 var pushState = history.pushState;
 history.pushState = function () {
