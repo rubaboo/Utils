@@ -13,7 +13,7 @@ function do_parseImg() {
     console.log("do_parseImg");
     $(this).nextAll(".content-img").remove();
     var lines = $(this).text().split("\n");
-    var img_re = /^\!\[(.*)\]\((.+)\)$/;
+    var img_re = /^\!\[(?<property>.*?)(?:,(?<ratio>\d+))?\]\((?<url>.+)\)$/;
 
     for (var i = 0; i < lines.length; i++) {
         var line = lines[i].trim();
@@ -21,8 +21,8 @@ function do_parseImg() {
         if (img === null) {
             continue;
         }
-        var property = img[1];
-        var img_url = img[2];
+        var property = img.groups.property;
+        var img_url = img.groups.url
 
         // console.log(property, img_url);
 
@@ -31,7 +31,12 @@ function do_parseImg() {
         } else if (property === "audio") {
             $(this).after('<div class="content-img"><audio src="' + img_url + '" controls="controls"></audio></div>');
         } else {
-            $(this).after('<div class="content-img"><img src="' + img_url + '"/></div>');
+            console.log(img);
+            if (img.groups.ratio != undefined) {
+                $(this).after('<div class="content-img"><img width="' + img.groups.ratio + '%" ' + 'src="' + img_url + '"/></div>');
+            } else {
+                $(this).after('<div class="content-img"><img src="' + img_url + '"/></div>');
+            }
         }
     }
 }
