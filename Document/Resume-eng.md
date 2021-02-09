@@ -65,7 +65,9 @@ Working on reduce the memory usage of the ads storage service by column compress
 
 #### STUP network protocol (TCP-over-UDP) - https://github.com/Wizmann/STUP-Protocol
 
-#### Melkwek encrypted proxy - https://github.com/Wizmann/Melkweg
+#### Melkwek encrypted proxy - https://github.com/Wizmann/Melkweg, https://github.com/Wizmann/Melkweg-go
+
+Encrypted socks5 proxy implemented with Python and Golang.
 
 #### wizmann.tk - http://wizmann.tk/
 
