@@ -9,9 +9,6 @@ Email: mail.kuuy@gmail.com
 * Bronze Medal 
 ACM-ICPC Asia Regional Contest(Tianjin), (2012.10)
 
-* Gold Medal
-6th BUPT Programming Contest, Gold Medal, (2012.3)
-
 ### WORK EXPERIENCE
 
 #### Microsoft Search Technology Center Asia
@@ -19,6 +16,16 @@ ACM-ICPC Asia Regional Contest(Tianjin), (2012.10)
 (2018.5 - now)
 
 Software Engineer at Bing Platform Team for ObjectStore Storage Service.
+
+##### Milestone Project
+
+###### RocksDB performance and resource optimization
+
+Optimize performance and resource usage of RocksDB for online storage service.
+
+###### Active-active Geo-Replication
+
+Real-time data replication protocol which support active-active data replication across multiple DCs. 
 
 #### Microsoft Research Asia
 
