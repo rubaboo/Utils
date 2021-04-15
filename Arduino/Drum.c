@@ -13,7 +13,7 @@ bool prev_status = LOW;
 void loop()
 {
   int val = analogRead(0);
-  bool status = val > 15   b    0? HIGH: LOW;
+  bool status = val > 300? HIGH: LOW;
   if (status != prev_status) {
     if (status == HIGH) {
       Keyboard.write(' ');
