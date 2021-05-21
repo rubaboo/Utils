@@ -88,6 +88,11 @@ function wfmd() {
 
 $(window).bind("load hashchange", wfmd);
 
+var pushState = history.pushState;
+history.pushState = function () {
+    wfmd();
+};
+
 function onStart() {
     if (!$("div#loadingScreen").is(":visible")) {
         wfmd();
