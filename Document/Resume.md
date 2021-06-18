@@ -26,7 +26,11 @@ SDE - ObjectStore Team of Bing Platform
 
 负责大规模分布式KV存储相关开发。
 
-**重点项目：RocksDB存储优化**
+**重点项目1：RocksDB存储优化**
+根据业务特点，优化RocksDB存储引擎的性能（延迟、吞吐、内存占用等）
+
+**重点项目2：Continental-scale Data-driven Replication**
+扩展并完善数据复制协议，使其支持跨地域的多机房的active-to-active数据复制
 
 #### 微软亚洲研究院 (2016.2 - 2018.6)
 
