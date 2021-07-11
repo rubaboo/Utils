@@ -23,7 +23,7 @@ Software Engineer at Bing Platform Team for ObjectStore Storage Service.
 
 Optimize performance and resource usage of RocksDB for online storage service.
 
-###### Active-active Geo-Replication
+###### Continental-scale ctive-active Geo-Replication
 
 Real-time data replication protocol which support active-active data replication across multiple DCs. 
 
@@ -63,11 +63,11 @@ Working on reduce the memory usage of the ads storage service by column compress
 
 ### Personal Projects
 
-#### STUP network protocol (TCP-over-UDP) - https://github.com/Wizmann/STUP-Protocol
-
 #### Melkwek encrypted proxy - https://github.com/Wizmann/Melkweg, https://github.com/Wizmann/Melkweg-go
 
 Encrypted socks5 proxy implemented with Python and Golang.
+
+#### STUP network protocol (TCP-over-UDP) - https://github.com/Wizmann/STUP-Protocol
 
 #### wizmann.tk - http://wizmann.tk/
 
