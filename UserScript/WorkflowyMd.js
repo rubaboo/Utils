@@ -7,6 +7,7 @@
 // @match        https://workflowy.com/*
 // @require      https://cdnjs.cloudflare.com/ajax/libs/markdown-it/8.2.2/markdown-it.js
 // @require      https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.9.0/highlight.min.js
+// @require      https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js
 // @resource     hljs_css https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.9.0/styles/monokai-sublime.min.css
 // @grant        GM_addStyle
 // @grant        GM_getResourceText
