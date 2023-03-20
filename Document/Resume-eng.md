@@ -4,11 +4,6 @@ Tel: +86-13718378549
 
 Email: mail.kuuy@gmail.com
 
-### AWARDS
-
-* Bronze Medal 
-ACM-ICPC Asia Regional Contest(Tianjin), (2012.10)
-
 ### WORK EXPERIENCE
 
 #### Microsoft Search Technology Center Asia
@@ -26,6 +21,10 @@ Optimize performance and resource usage of RocksDB for online storage service.
 ###### Continental-scale ctive-active Geo-Replication
 
 Real-time data replication protocol which support active-active data replication across multiple DCs. 
+
+###### Network Throughput Optimization using MsQuic and BBR
+
+Boost network throughput for data replication across continents.
 
 #### Microsoft Research Asia
 
@@ -51,15 +50,15 @@ Phoenix Nest of Baidu is the #1 marketing platform in China which is designed to
 
 ##### Responsibilities
 
-1. maintain the storage & backend service for the advertising engine, which is the crux of the whole advertising system
-2. prototyping new features and new products
-3. focus on performance and resource-utilization
+* Maintain the storage & backend service for the advertising engine, which is the crux of the whole advertising system
+* Prototyping new features and new products
+* Focus on performance and resource-utilization
 
-##### Milestone Project
+### Open-Sourced Project Contribution
 
-###### Memory Optimization on Online Ads Storage Service     
+#### BBR Congestion Control Algorithm for MsQuic
 
-Working on reduce the memory usage of the ads storage service by column compression. Saving ~30% memory space by deduplicating in the online production environment (sum up to ~14TB). And saving ~70% memory by deduplicating together with compressing by snappy in the offline experimental environment.
+Implemented BBR Algorithm for MsQuic project. 
 
 ### Personal Projects
 
@@ -67,15 +66,11 @@ Working on reduce the memory usage of the ads storage service by column compress
 
 Encrypted socks5 proxy implemented with Python and Golang.
 
-#### STUP network protocol (TCP-over-UDP) - https://github.com/Wizmann/STUP-Protocol
-
 #### wizmann.tk - http://wizmann.tk/
 
 A personal technical blog written in both Chinese and English.
 
 #### Some other projects - https://github.com/wizmann
-
-You can find some other interestring projects hosted on my Github.
 
 ### EDUCATION
 
