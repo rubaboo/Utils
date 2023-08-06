@@ -3,7 +3,7 @@
 // @namespace    http://wizmann.tk
 // @version      0.1
 // @author       Wizmann
-// @match        https://workflowy.com/*
+// @match        https://*.workflowy.com/*
 // @grant        none
 // ==/UserScript==
 /* jshint -W097 */

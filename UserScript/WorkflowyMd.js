@@ -4,7 +4,7 @@
 // @version      0.1
 // @description  try to take over the world!
 // @author       You
-// @match        https://workflowy.com/*
+// @match        https://*.workflowy.com/*
 // @require      https://cdnjs.cloudflare.com/ajax/libs/markdown-it/8.2.2/markdown-it.js
 // @require      https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.9.0/highlight.min.js
 // @require      https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js
